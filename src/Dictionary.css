@@ -1,0 +1,14 @@
+:root {
+  --primary-color: rgb(128, 0, 128);
+  --secondary-color: rgb(250, 240, 253);
+  --heading-color: rgb(39, 33, 66);
+  --accent-color: rgb(246, 82, 130);
+  --text-color: rgba(39, 33, 66, 0.4);
+}
+
+.Dictionary .user-input {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  outline-color: var(--primary-color);
+}

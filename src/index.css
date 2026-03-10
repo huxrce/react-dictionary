@@ -1,11 +1,4 @@
-:root {
-  --primary-color: rgb(128, 0, 128);
-  --secondary-color: rgb(252, 246, 254);
-  --heading-color: rgb(39, 33, 66);
-  --accent-color: rgb(246, 82, 130);
-  --text-color: rgba(39, 33, 66, 0.4);
-}
-
 body {
-  background: var(--secondary-color);
+  background: rgb(250, 240, 253);
+  ;
 }

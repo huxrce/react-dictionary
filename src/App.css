@@ -1,18 +1,23 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: rgb(128, 0, 128);
 }
 
 .App .container {
   background: white;
-  border: 1px solid purple;
+  border: 1px solid var(--primary-color);
   border-radius: 12px;
   margin-top: 60px;
-  padding: 20px;
+  padding: 35px 20px;
+}
+
+.App h1 {
+  text-align: center;
 }
 
 .App footer {
   font-size: 11px;
   margin: 30px 0;
+  text-align: center;
 }
 
 .App a {

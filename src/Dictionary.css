@@ -10,25 +10,58 @@
   color: var(--text-color);
 }
 
-.Dictionary form {
-  text-align: center;
-  margin: 25px auto;
+.Dictionary .main {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 30px 20px;
 }
 
-.Dictionary .user-input {
+.Dictionary section {
+  background: white;
+  box-shadow: 0px 10px 10px rgba(65, 50, 100, 0.08);
+  margin: 20px 0;
+  padding: 30px 20px;
+}
+
+.Dictionary .sub {
+  border-left: 2px solid var(--primary-color);
+  line-height: 1.5;
+}
+
+.Dictionary h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Dictionary form {
+  text-align: center;
+}
+
+.Dictionary input {
   background: var(--secondary-color);
   border: 1px solid var(--primary-color);
-  border-radius: 10px;
+  border-radius: 8px;
+  color: #333;
   height: 35px;
+  margin-bottom: 10px;
   outline-color: var(--primary-color);
   padding: 10px;
-  width: 210px;
+  width: 100%;
 }
 
 .Dictionary h2 {
   color: var(--primary-color);
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .Dictionary h3 {
   color: var(--detail-color);
+}
+
+.Dictionary h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }

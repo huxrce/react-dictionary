@@ -3,15 +3,7 @@
 }
 
 .App .container {
-  background: white;
-  border: 1px solid var(--primary-color);
-  border-radius: 12px;
   margin-top: 60px;
-  padding: 35px 20px;
-}
-
-.App h1 {
-  text-align: center;
 }
 
 .App footer {
